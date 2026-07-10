@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.brand-item {
+  display: block;
+  padding: 10px 8px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  color: #7a8435;
+  text-align: center;
+  text-decoration: none;
+  background: #fff;
+}
+
+.brand-item.active {
+  border-width: 2px;
+  border-color: #8a8a8a;
+  font-weight: 700;
+}
